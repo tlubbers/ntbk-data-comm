@@ -55,5 +55,5 @@ At the destination host, each layer only decapsulates the packet received, remov
 
 As the payload is making its way through the layers and their protocols, various address types are used. At application layer, Names are used. At transport layer, port numbers are used. At network layer, logical addresses are used. At data-link layer, link-layer addresses are used.
 
-![Addressing](./img/c2-addressing.png)
+![Addressing](./img/ch2-addressing.png)
 
