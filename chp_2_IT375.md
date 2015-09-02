@@ -26,7 +26,7 @@ The TCP/IP Protocol Suite is the computer networking model and set of communicat
 
 The connections between layers is show logically in the following diagram. Notice that the switches touch two layers and the router touches three. This implies the first three layers data packets should not be changed with any router or link layer switch.
 
-![Logical Connections](./img/c2-logicalconnections.png)
+![Logical Connections](./img/ch2-logicalconnections.png)
 
 ### Encapsulation/Decapsulation
 
@@ -49,7 +49,7 @@ Now at the destination...
 
 At the destination host, each layer only decapsulates the packet received, removes the payload, and delivers the payload to the next-higher layer protocol until the message reaches the application layer. It is necessary to say that decapsulation in the host involves error checking.
 
-![Encapsulation](./img/c2-encaps.png)
+![Encapsulation](./img/ch2-encaps.png)
 
 ### Addressing
 
