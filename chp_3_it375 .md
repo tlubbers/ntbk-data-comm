@@ -41,4 +41,21 @@ where <math>\scriptstyle A\,</math>, <math>\scriptstyle f\,</math>, and <math>\s
 
 #### Wavelength
 
-**Wavelength** is another characteristic of a signal traveling through a transmission medium. Wavelength binds the period or the frequency of a simple sine wave to the propagation speed of the medium. Wavelength is the distance
+**Wavelength** is another characteristic of a signal traveling through a transmission medium. Wavelength binds the period or the frequency of a simple sine wave to the propagation speed of the medium.
+
+### Attenuation and amplification
+
+Attenuation is the loss of signal energy to heat. The following equations can be used to determine how much energy is lost.
+
+P = Pout/Pin, where P is Power in milli-Watts
+
+dBm = 10 * log(Pout/Pin), where dBmh is Attentuation in decibal-milliwats
+
+#### Example Problems
+
+1. given Pmw = 2000, find dBm?
+    * result = (10 log((2000 mW)/(0.001 W)) dBm)/(log(10)) = **33.01**
+
+2. given dBm = 25, find Pmw?
+    * 10^((25 dBm)/(10 dBm)) = **316.2**
+
