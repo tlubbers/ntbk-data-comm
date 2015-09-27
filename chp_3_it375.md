@@ -62,11 +62,23 @@ Distortion is when there is a change to the form of a signal. The Phase is affec
 
 Noise is anything that is affecting your signal in an unwanted way. The signal to noise ratio is one of the most important elements to signals.
 
-##### Signal to Noise Ratio
+#### Signal to Noise Ratio
 
 Signal-to-noise ratio is defined as the ratio of the power of a signal (meaningful information) and the power of background noise (unwanted signal):
 
-	SNR = Psignal/Pnoise
+	SNR = ave-signal-power/ave-noise-power
 
+Often SNR is expressed in dB, so...
 
+  SNR_dB = 10*log_10(SNR)
+
+##### Example Problems
+
+1. The power of a signal is 10 mW and the power of the noise is 1 μW; what are the values of SNR and SNRdB?
+    * SNR = (10,000 mw) / (1 mw) = 10,000
+    * SNRdB = 10 log10(10,000) = 10*log10(104) = 40
+
+#### Wavelength
+
+  Wavelength = (propagation-speed)*period = (propagation-speed)/frequency
 
